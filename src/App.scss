@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
 }
 
 h1, p {
@@ -13,12 +15,16 @@ h1, p {
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 350px));
-    gap: 40px 10px;
+    gap: 30px;
 }
 
 .card {
+    border: 1px solid darkgray;
+    padding: 18px;
+    border-radius: 6px;
     > p {
-        margin: 4px 0;
+        margin: 10px 0 15px;
+        word-break: break-word;
     }
     > h1 {
         margin-bottom: 8px;
