@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.container {
+    margin: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 350px));
+    gap: 40px 10px;
+}
+
+.card {
+    > p {
+        margin: 4px 0;
+    }
+    > h1 {
+        margin-bottom: 8px;
+    }
+}
+
+.meta {
+    > span {
+        margin-right: 8px;
+    }
+}
+
+.header {
+    background-color: cadetblue;
+    padding: 20px;
+
+    > a {
+        margin-right: 20px;
+    }
+}
